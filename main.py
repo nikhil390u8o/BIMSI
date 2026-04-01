@@ -6,9 +6,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio
 import asyncio
 import os
 
-API_ID = int(os.environ.get("API_ID", 0))
-API_HASH = os.environ.get("API_HASH", "")
-STRING_SESSION = os.environ.get("STRING_SESSION", "")
+API_ID = 20898349
+API_HASH = "9fdb830d1e435b785f536247f49e7d87"
+STRING_SESSION = "BQE-4i0ApUkY5_ljChHwN3MwsOB7GNrxEQcXhXW0sLKzHZlkJH4i8TdVEAOmsuqwKYbrIfKgw6XGHEOkS2b3TFmQeVZCcDPd06MVqnO-81QGM_DwwW9CQN6YhPwVFlRLw8Gllu44_PaaD8fFZyg7O2YOAawg7r4nA5v6oJ_uaFyFGpohtMYzLO27COjkeId1V5qWXy-t5qq6d3J8ZbeFHtwNM8OhI9rHA4xCLJNC4sAD6WqwkKbR6sM-UGGGl4gR95gYnSvkesN6L3wnzuQ4ADQJ1kUrP_TITYpDlZBSOpdFKPcQA0SrmQNqWyipAtCaHh5IYPPCMrWVXMDOeFttZg31U4WYGAAAAAHKarFXAA"
 
 app = Client("vc_bot", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION)
 call_py = PyTgCalls(app)
